@@ -1,0 +1,33 @@
+.card-continer{
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.card-continer img{
+    width: 350px;
+}
+
+.card-continer .product-name{
+    margin: 1rem 0;
+}
+
+.card-continer .price{
+    margin: 0.7rem 0;
+    font-weight: 700;
+}
+
+.card-continer button{
+    padding: .5rem; 
+    font-size: larger;
+    background-color: rgb(58, 146, 207);
+     border: none;
+     color: white;
+     border-radius: 5px;
+}
+
+.card-continer button:hover{
+    transform: translateY(1px);
+    cursor: pointer;
+    box-shadow: 0 0 black;
+}

@@ -1,0 +1,38 @@
+.header{
+    background-color: black;
+     height: 80px;
+    display: flex;
+    padding: 0 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.header a{
+    color:  white;
+    text-decoration: none;
+
+}
+
+.header a:hover{
+    border-bottom: 2px solid white;
+}
+
+.header h1{
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.links{
+    display: flex;
+    color: white;
+    /* border: 1px solid white; */
+    width: 15%;
+    justify-content: space-around;
+}
+
+.links h1{
+    padding: 10px;
+}
